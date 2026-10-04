@@ -736,7 +736,8 @@ footer p {
 }
 
 .whatsapp-button:hover {
-    background: #e53935;
-    color: #ffffff;
+    background: transparent;
+    border-color: #ff514d;
+    color: #ff514d;
     transform: translateY(-2px);
 }
