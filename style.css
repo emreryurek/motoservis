@@ -719,7 +719,8 @@ footer p {
 ======================================== */
 
 .whatsapp-button {
-    display: inline-block;
+    display: block;
+    width: fit-content;
     margin-top: 14px;
     padding: 11px 16px;
     border: 1px solid #e53935;
