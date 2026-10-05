@@ -1,477 +1,188 @@
 <!DOCTYPE html>
 <html lang="tr">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <meta name="description"
-        content="Profesyonel motosiklet bakım, onarım ve servis hizmetleri. Periyodik bakım, fren, zincir, lastik ve arıza tespiti.">
-
-    <title>MotoPro | Motosiklet Servis</title>
-
-    <link rel="stylesheet" href="style.css">
-    
-    <link rel="icon" type="image/png" href="images/favicon.jpg">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Profesyonel motosiklet bakım, onarım ve servis hizmetleri. Periyodik bakım, fren, zincir, lastik ve arıza tespiti.">
+<title>MotoPro | Motosiklet Servis</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="ek.css">
+<link rel="icon" type="image/jpeg" href="images/favicon.jpg">
 </head>
 
 <body>
 
-    <!-- HEADER -->
+<!--
+  MÜŞTERİYE TESLİM EDERKEN DEĞİŞTİRİLECEKLER:
+  1) Telefon: 0555 555 55 55 / +905555555555 (3 yer: tel, WhatsApp x2, hero "Hemen Ara")
+  2) Adres, çalışma saatleri ve harita (iframe + "Yol Tarifi Al" linki)
+  3) Form adresi (formsubmit.co/...) ve _next adresi
+  4) Alttaki "örnek çalışma" şeridini (class="ery-demo") sil
+-->
 
-    <header class="header">
+<header class="header">
+    <a href="index.html" class="logo">MOTO<span>PRO</span></a>
+    <nav>
+        <a href="#anasayfa">Ana Sayfa</a>
+        <a href="#hizmetler">Hizmetler</a>
+        <a href="#hakkimizda">Hakkımızda</a>
+        <a href="#iletisim">İletişim</a>
+    </nav>
+    <a href="#iletisim" class="header-button">Randevu Al</a>
+</header>
 
-        <a href="index.html" class="logo">
-            MOTO<span>PRO</span>
-        </a>
+<main>
 
-        <nav>
-            <a href="#anasayfa">Ana Sayfa</a>
-            <a href="#hizmetler">Hizmetler</a>
-            <a href="#hakkimizda">Hakkımızda</a>
-            <a href="#iletisim">İletişim</a>
-        </nav>
+<section class="hero" id="anasayfa">
+    <div class="hero-content">
+        <p class="hero-small">PROFESYONEL MOTOSİKLET SERVİSİ</p>
+        <h1>Motorunuz İçin<br><span>Güvenilir Servis.</span></h1>
+        <p class="hero-text">Periyodik bakım, onarım ve arıza tespiti tek yerde. Yapılacak işi önce anlatır, sonra başlarız.</p>
+        <div class="hero-buttons">
+            <a href="#iletisim" class="button button-primary">Randevu Al</a>
+            <a href="tel:+905555555555" class="button button-secondary">Hemen Ara</a>
+        </div>
+    </div>
+</section>
 
-        <a href="#iletisim" class="header-button">
-            Randevu Al
-        </a>
+<section class="services" id="hizmetler">
+    <div class="section-title">
+        <p>HİZMETLERİMİZ</p>
+        <h2>Motosikletiniz İçin<br>İhtiyacınız Olan Her Şey</h2>
+    </div>
+    <div class="service-grid">
+        <article class="service-card">
+            <div class="service-number">01</div>
+            <h3>Periyodik Bakım</h3>
+            <p>Kilometre ve süre bazlı bakım kontrolleri. Yapılan işlem ve değişen parçalar size liste olarak verilir.</p>
+        </article>
+        <article class="service-card">
+            <div class="service-number">02</div>
+            <h3>Yağ &amp; Filtre Değişimi</h3>
+            <p>Üretici tavsiyesine uygun yağ ve filtre değişimi. Hangi yağın kullanıldığını bilirsiniz.</p>
+        </article>
+        <article class="service-card">
+            <div class="service-number">03</div>
+            <h3>Fren Bakımı</h3>
+            <p>Balata, disk ve fren hidroliği kontrolü. Değişim gerekiyorsa önce gösterilir.</p>
+        </article>
+        <article class="service-card">
+            <div class="service-number">04</div>
+            <h3>Zincir Bakımı</h3>
+            <p>Temizlik, yağlama ve gerginlik ayarı. Zincir ve dişli aşınma durumu kontrol edilir.</p>
+        </article>
+        <article class="service-card">
+            <div class="service-number">05</div>
+            <h3>Lastik İşlemleri</h3>
+            <p>Diş derinliği ve hava basıncı kontrolü, lastik değişimi ve balans desteği.</p>
+        </article>
+        <article class="service-card">
+            <div class="service-number">06</div>
+            <h3>Arıza Tespiti</h3>
+            <p>Mekanik ve elektriksel sorunların kaynağı bulunur, yapılacak işlem ve tahmini maliyet önceden söylenir.</p>
+        </article>
+    </div>
+</section>
 
-    </header>
+<section class="about" id="hakkimizda">
+    <div class="about-content">
+        <p class="section-label">NEDEN BİZ?</p>
+        <h2>Motosikletinizi<br>Önemseyerek Çalışıyoruz.</h2>
+        <p>Servis işinde güven ve açık iletişim önemli. Yapılacak işlemleri size anlatır, onayınız olmadan işlem yapmayız.</p>
+        <p>Amacımız yalnızca bakım yapmak değil, motosikletinizin güvenli ve sağlıklı kullanılmasına katkı sağlamak.</p>
+    </div>
+    <div class="about-box">
+        <div><strong>01</strong><span>Profesyonel Servis Anlayışı</span></div>
+        <div><strong>02</strong><span>Düzenli Bakım ve Kontrol</span></div>
+        <div><strong>03</strong><span>Müşteri Odaklı Hizmet</span></div>
+    </div>
+</section>
 
+<section class="cta">
+    <div>
+        <p>MOTOSİKLETİNİZ İÇİN</p>
+        <h2>Bakım Zamanı Geldi mi?</h2>
+        <span>Randevu almak veya servis hakkında bilgi almak için bizimle iletişime geçin.</span>
+    </div>
+    <a href="#iletisim" class="button button-primary">Randevu Al</a>
+</section>
 
-    <main>
+<section class="contact" id="iletisim">
+    <div class="section-title">
+        <p>İLETİŞİM</p>
+        <h2>Bize Ulaşın</h2>
+    </div>
 
-        <!-- HERO -->
-
-        <section class="hero" id="anasayfa">
-
-            <div class="hero-content">
-
-                <p class="hero-small">
-                    PROFESYONEL MOTOSİKLET SERVİSİ
-                </p>
-
-                <h1>
-                    Motorunuz İçin<br>
-                    <span>Güvenilir Servis.</span>
-                </h1>
-
-                <p class="hero-text">
-                    Periyodik bakım, onarım ve motosikletinizin ihtiyaç
-                    duyduğu servis işlemlerini profesyonel şekilde
-                    gerçekleştiriyoruz.
-                </p>
-
-                <div class="hero-buttons">
-
-                    <a href="#iletisim" class="button button-primary">
-                        Randevu Al
-                    </a>
-
-                    <a href="#hizmetler" class="button button-secondary">
-                        Hizmetlerimizi Gör
-                    </a>
-
-                </div>
-
+    <div class="contact-grid">
+        <div class="contact-info">
+            <div class="contact-item">
+                <span>TELEFON</span>
+                <strong><a href="tel:+905555555555">0555 555 55 55</a></strong>
             </div>
-
-        </section>
-
-
-        <!-- SERVICES -->
-
-        <section class="services" id="hizmetler">
-
-            <div class="section-title">
-
-                <p>HİZMETLERİMİZ</p>
-
-                <h2>
-                    Motosikletiniz İçin<br>
-                    İhtiyacınız Olan Her Şey
-                </h2>
-
+            <div class="contact-item">
+                <span>WHATSAPP</span>
+                <strong><a href="https://wa.me/905555555555" target="_blank" rel="noopener">0555 555 55 55</a></strong>
+                <a href="https://wa.me/905555555555" target="_blank" rel="noopener" class="whatsapp-button">WhatsApp'tan Hızlıca Ulaşın</a>
             </div>
-
-
-            <div class="service-grid">
-
-                <article class="service-card">
-
-                    <div class="service-number">
-                        01
-                    </div>
-
-                    <h3>
-                        Periyodik Bakım
-                    </h3>
-
-                    <p>
-                        Motosikletinizin düzenli bakım ve kontrollerini
-                        gerçekleştirerek güvenli ve sağlıklı kullanım
-                        için gerekli işlemleri yapıyoruz.
-                    </p>
-
-                </article>
-
-
-                <article class="service-card">
-
-                    <div class="service-number">
-                        02
-                    </div>
-
-                    <h3>
-                        Yağ & Filtre Değişimi
-                    </h3>
-
-                    <p>
-                        Motor yağı ve filtre değişimlerini motosikletinizin
-                        üretici tavsiyelerine uygun şekilde gerçekleştiriyoruz.
-                    </p>
-
-                </article>
-
-
-                <article class="service-card">
-
-                    <div class="service-number">
-                        03
-                    </div>
-
-                    <h3>
-                        Fren Bakımı
-                    </h3>
-
-                    <p>
-                        Fren sisteminin kontrolü, balata ve disk kontrolleri
-                        gibi bakım işlemlerini gerçekleştiriyoruz.
-                    </p>
-
-                </article>
-
-
-                <article class="service-card">
-
-                    <div class="service-number">
-                        04
-                    </div>
-
-                    <h3>
-                        Zincir Bakımı
-                    </h3>
-
-                    <p>
-                        Zincir temizliği, yağlama, gerginlik ve genel
-                        durum kontrollerini gerçekleştiriyoruz.
-                    </p>
-
-                </article>
-
-
-                <article class="service-card">
-
-                    <div class="service-number">
-                        05
-                    </div>
-
-                    <h3>
-                        Lastik İşlemleri
-                    </h3>
-
-                    <p>
-                        Lastiklerin genel durumunu kontrol ediyor,
-                        ihtiyaç duyulan lastik işlemlerinde destek sağlıyoruz.
-                    </p>
-
-                </article>
-
-
-                <article class="service-card">
-
-                    <div class="service-number">
-                        06
-                    </div>
-
-                    <h3>
-                        Arıza Tespiti
-                    </h3>
-
-                    <p>
-                        Motosikletinizde karşılaştığınız mekanik ve
-                        elektriksel sorunların tespit edilmesine yardımcı oluyoruz.
-                    </p>
-
-                </article>
-
+            <div class="contact-item">
+                <span>ADRES</span>
+                <strong>Örnek Mah. Örnek Sk. No:1, İstanbul</strong>
             </div>
-
-        </section>
-
-
-        <!-- ABOUT -->
-
-        <section class="about" id="hakkimizda">
-
-            <div class="about-content">
-
-                <p class="section-label">
-                    NEDEN BİZ?
-                </p>
-
-                <h2>
-                    Motosikletinizi<br>
-                    Önemseyerek Çalışıyoruz.
-                </h2>
-
-                <p>
-                    Motosiklet servisinde güvenin ve şeffaf iletişimin
-                    önemli olduğuna inanıyoruz. Yapılacak işlemleri
-                    müşterilerimize açık şekilde anlatıyor ve motosikletin
-                    ihtiyacına uygun çözümler sunuyoruz.
-                </p>
-
-                <p>
-                    Amacımız yalnızca bakım yapmak değil, motosikletinizin
-                    güvenli ve sağlıklı şekilde kullanılmasına katkı sağlamak.
-                </p>
-
+            <div class="contact-item">
+                <span>ÇALIŞMA SAATLERİ</span>
+                <strong>Pzt - Cmt / 09:00 - 19:00</strong>
             </div>
-
-
-            <div class="about-box">
-
-                    <div>
-                        <strong>01</strong>
-                        <span>Profesyonel Servis Anlayışı</span>
-                    </div>
-
-                    <div>
-                        <strong>02</strong>
-                        <span>Düzenli Bakım ve Kontrol</span>
-                    </div>
-
-                    <div>
-                        <strong>03</strong>
-                        <span>Müşteri Odaklı Hizmet</span>
-                    </div>
-
-                </div>
-
-        </section>
-
-
-        <!-- CTA -->
-
-        <section class="cta">
-
-            <div>
-
-                <p>
-                    MOTOSİKLETİNİZ İÇİN
-                </p>
-
-                <h2>
-                    Bakım Zamanı Geldi mi?
-                </h2>
-
-                <span>
-                    Randevu almak veya servis hakkında bilgi almak için
-                    bizimle iletişime geçin.
-                </span>
-
-            </div>
-
-            <a href="#iletisim" class="button button-primary">
-                Randevu Al
-            </a>
-
-        </section>
-
-
-        <!-- CONTACT -->
-
-        <section class="contact" id="iletisim">
-
-            <div class="section-title">
-
-                <p>İLETİŞİM</p>
-
-                <h2>
-                    Bize Ulaşın
-                </h2>
-
-            </div>
-
-
-            <div class="contact-grid">
-
-                <div class="contact-info">
-
-                    <div class="contact-item">
-                            <span>TELEFON</span>
-                            <strong>
-                                <a href="tel:+905555555555">
-                                    0555 555 55 55
-                                </a>
-                            </strong>
-                        </div>
-
-                        <div class="contact-item">
-                                <span>WHATSAPP</span>
-                            
-                                <strong>
-                                    <a href="https://wa.me/905555555555" target="_blank">
-                                        0555 555 55 55
-                                    </a>
-                                </strong>
-                            
-                                <a
-                                    href="https://wa.me/905555555555"
-                                    target="_blank"
-                                    class="whatsapp-button">
-                                    WhatsApp'tan Hızlıca Ulaşın
-                                </a>
-                            </div>
-
-                    <div class="contact-item">
-                        <span>ADRES</span>
-                        <strong>İstanbul / Türkiye</strong>
-                    </div>
-
-                    <div class="contact-item">
-                        <span>ÇALIŞMA SAATLERİ</span>
-                        <strong>Pzt - Cmt / 09:00 - 19:00</strong>
-                    </div>
-
-                </div>
-
-
-                <form
-                class="contact-form"
-                action="https://formsubmit.co/YOUR_EMAIL@example.com"
-                method="POST"
-            >
-
-                <input type="hidden" name="_subject" value="MotoPro Yeni Randevu Talebi">
-
-                <input type="hidden" name="_template" value="table">
-
-                <input
-                    type="hidden"
-                    name="_next"
-                    value="https://emreryurek.github.io/motoservis/tesekkurler.html"
-                >
-
-                <input
-                    type="text"
-                    name="name"
-                    placeholder="Adınız Soyadınız"
-                    required
-                >
-
-                <input
-                    type="tel"
-                    name="phone"
-                    placeholder="Telefon Numaranız"
-                    required
-                >
-
-                <select name="service" required>
-
-                    <option value="">
-                        Hizmet Seçiniz
-                    </option>
-
-                    <option value="Periyodik Bakım">
-                        Periyodik Bakım
-                    </option>
-
-                    <option value="Yağ ve Filtre Değişimi">
-                        Yağ & Filtre Değişimi
-                    </option>
-
-                    <option value="Fren Bakımı">
-                        Fren Bakımı
-                    </option>
-
-                    <option value="Zincir Bakımı">
-                        Zincir Bakımı
-                    </option>
-
-                    <option value="Lastik İşlemleri">
-                        Lastik İşlemleri
-                    </option>
-
-                    <option value="Arıza Tespiti">
-                        Arıza Tespiti
-                    </option>
-
-                </select>
-
-                <textarea
-                    name="message"
-                    placeholder="Mesajınız"
-                    rows="5"
-                ></textarea>
-
-                <button
-                    type="submit"
-                    class="button button-primary"
-                >
-                    Randevu Talebi Gönder
-                </button>
-
-            </form>
-
-            </div>
-            <div class="map-box">
-
-                <div class="map-title">
-                    <span>LOKASYON</span>
-                    <h3>Bizi Bulun</h3>
-                </div>
-            
-                <iframe
-                    src="https://www.google.com/maps?q=Istanbul%2C%20Turkey&output=embed"
-                    loading="lazy"
-                    allowfullscreen
-                    referrerpolicy="no-referrer-when-downgrade">
-                </iframe>
-            
-                <a
-                    href="https://www.google.com/maps/search/?api=1&query=Istanbul%2C%20Turkey"
-                    target="_blank"
-                    class="map-button">
-                    Yol Tarifi Al
-                </a>
-            
-            </div>
-
-        </section>
-
-    </main>
-
-
-    <!-- FOOTER -->
-
-    <footer>
-
-        <div class="footer-logo">
-            MOTOR<span>PRO</span>
         </div>
 
-        <p>
-            Profesyonel motosiklet bakım ve servis hizmetleri.
-        </p>
+        <!-- Örnek form: mesajlar ERY Studio'ya düşer. Müşteriye teslimde adresi değiştir. -->
+        <form class="contact-form" action="https://formsubmit.co/iletisim@erystudio.com" method="POST">
+            <input type="hidden" name="_subject" value="MotoPro ÖRNEK SİTE - Form Denemesi">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="https://emreryurek.github.io/motoservis/tesekkurler.html">
+            <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
 
-        <p class="copyright">
-            © 2026 MotoPro. Tüm hakları saklıdır.
-        </p>
+            <input type="text" name="name" placeholder="Adınız Soyadınız" autocomplete="name" required>
+            <input type="tel" name="phone" placeholder="Telefon Numaranız" autocomplete="tel" required>
 
-    </footer>
+            <select name="service" required>
+                <option value="">Hizmet Seçiniz</option>
+                <option value="Periyodik Bakım">Periyodik Bakım</option>
+                <option value="Yağ ve Filtre Değişimi">Yağ &amp; Filtre Değişimi</option>
+                <option value="Fren Bakımı">Fren Bakımı</option>
+                <option value="Zincir Bakımı">Zincir Bakımı</option>
+                <option value="Lastik İşlemleri">Lastik İşlemleri</option>
+                <option value="Arıza Tespiti">Arıza Tespiti</option>
+            </select>
+
+            <textarea name="message" placeholder="Motosiklet marka/model ve sorununuz" rows="5"></textarea>
+
+            <button type="submit" class="button button-primary">Randevu Talebi Gönder</button>
+        </form>
+    </div>
+
+    <div class="map-box">
+        <div class="map-title">
+            <span>LOKASYON</span>
+            <h3>Bizi Bulun</h3>
+        </div>
+        <iframe src="https://www.google.com/maps?q=Istanbul%2C%20Turkey&output=embed" title="MotoPro konum haritası" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <a href="https://www.google.com/maps/search/?api=1&query=Istanbul%2C%20Turkey" target="_blank" rel="noopener" class="map-button">Yol Tarifi Al</a>
+    </div>
+</section>
+
+</main>
+
+<footer>
+    <div class="footer-logo">MOTO<span>PRO</span></div>
+    <p>Profesyonel motosiklet bakım ve servis hizmetleri.</p>
+    <p class="copyright">© 2026 MotoPro. Tüm hakları saklıdır.</p>
+</footer>
+
+<div class="ery-demo">
+    <span>Bu site ERY Studio'nun örnek çalışmasıdır.</span>
+    <a href="https://wa.me/905325023600?text=Merhaba%2C%20MotoPro%20%C3%B6rne%C4%9Fini%20g%C3%B6rd%C3%BCm%2C%20bana%20da%20site%20istiyorum." target="_blank" rel="noopener">Size de hazırlayalım</a>
+</div>
 
 </body>
-
 </html>
